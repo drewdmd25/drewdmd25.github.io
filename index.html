@@ -84,6 +84,15 @@
             }
             
         </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+         <script>
+          $(document).ready(function(){
+              $("button").click(function(){
+                  $("ul.professional-interests").fadeToggle();
+              });
+          });
+      </script>
+
             
         </head>
         
@@ -122,6 +131,21 @@
                         </div>
                         
                     </section>
+                </main>
+                <main>
+                    <div class="content">
+                        <header>Professional Interests</header>
+                        <section class="interests">
+                            <button>Use me to see my professional interests</button>
+                            <ul class="professional-interests">
+                                <li>Science</li>
+                                <li>The Medical field</li>
+                                <li>Programming</li>
+                            </ul>
+                        </section>
+                        
+                    </div>
+                    
                 </main>
             </div>
         </body>
